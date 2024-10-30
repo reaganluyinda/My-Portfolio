@@ -28,10 +28,10 @@ export const NAVIGATION_LINKS = [
 ];
 
 export const PROFILE = {
-  name: "David Stones",
-  role: "Full Stack Developer",
+  name: "Reagan J Luyinda",
+  role: "Front-End Developer",
   subheading:
-    "With 10 years of full-stack development experience, I build efficient, scalable web applications. Not on the job hunt, but always curious about interesting projects.",
+    "With 2 years of Front-End development experience, I build efficient, scalable web and Mobile applications. I am on the job hunt and always curious about interesting projects.",
 };
 
 export const PROJECTS = [
