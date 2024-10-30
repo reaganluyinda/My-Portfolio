@@ -1,12 +1,13 @@
 import { useState } from "react";
+import Navbar from "./components/Navbar";
 
 function App() {
-  const [count, setCount] = useState(0);
-
   return (
-    <>
-      <h1 className="text-green-500">My Portfolio</h1>
-    </>
+    <main className="mx-auto max-w-7xl overflow-x-hidden antialiased">
+      <div className="bg-image fixed inset-0 bg-cover bg-fixed bg-center">
+        <Navbar />
+      </div>
+    </main>
   );
 }
 
