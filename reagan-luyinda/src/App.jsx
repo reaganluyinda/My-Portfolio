@@ -1,6 +1,7 @@
 import { useState } from "react";
 import Navbar from "./components/Navbar";
 import Hero from "./components/hero";
+import Projects from "./components/projects";
 
 function App() {
   return (
@@ -8,6 +9,7 @@ function App() {
       <div className="bg-image fixed inset-0 bg-cover bg-fixed bg-center">
         <Navbar />
         <Hero />
+        <Projects />
       </div>
     </main>
   );
