@@ -1,6 +1,7 @@
 import React, { useRef } from "react";
 import { PROFILE } from "../constants";
 import { RiArrowRightUpLine } from "@remixicon/react";
+import myImage from "../assets/Reagan.jpg";
 
 const Hero = () => {
   const heroRef = useRef(null);
@@ -30,6 +31,13 @@ const Hero = () => {
         <span>download Resume</span>
         <RiArrowRightUpLine />
       </a>
+      <img
+        src={myImage}
+        alt="reagan"
+        width={400}
+        height="400"
+        className="hero-img rounded-3xl border border-purple-300/20 p-1"
+      />
     </section>
   );
 };
