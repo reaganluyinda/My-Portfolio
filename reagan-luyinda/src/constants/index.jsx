@@ -12,6 +12,10 @@ import {
   RiJavascriptLine,
   RiReactjsLine,
   RiNodeTree,
+  RiPhpLine,
+  RiJavascriptFill,
+  RiEditLine,
+  RiAdvertisementLine,
 } from "@remixicon/react";
 import {
   RiDatabaseLine,
@@ -39,17 +43,17 @@ export const PROJECTS = [
     id: 1,
     title: "E-commerce Website",
     description:
-      "A full-featured e-commerce website built with React and Node.js. It includes user authentication, product management, and an integrated payment gateway.",
-    techStack: ["React", "Node.js", "Express", "MongoDB"],
+      "A full-featured e-commerce website built with React. I was practicing product management, state management, empty and active states and responsiveness.",
+    techStack: ["React", "Typescript", "Tailwind CSS", "Context API"],
     imgSrc: project1,
     link: "https://example-ecommerce.com",
   },
   {
     id: 2,
-    title: "Social Media App",
+    title: "Snap webpage",
     description:
-      "A real-time social media app with chat, notifications, and a customizable profile page. Built with React, Firebase, and Redux for state management.",
-    techStack: ["React", "Firebase", "Redux"],
+      "A landing page, built with React, Typescript and Tailwind CSS. I was checking out routing concepts and media queries",
+    techStack: ["React", "Typescript", "Tailwind CSS"],
     imgSrc: project2,
     link: "https://example-socialapp.com",
   },
@@ -58,16 +62,16 @@ export const PROJECTS = [
     title: "Portfolio Website",
     description:
       "A personal portfolio website showcasing projects and skills. Fully responsive and optimized for performance.",
-    techStack: ["Next.js", "Tailwind CSS"],
+    techStack: ["React.js", "Javascript", "Tailwind CSS", "GSAP"],
     imgSrc: project3,
     link: "https://myportfolio.com",
   },
   {
     id: 4,
-    title: "Blog Platform",
+    title: "Visa Application System",
     description:
-      "A blogging platform with a content management system, user authentication, and an intuitive editor.",
-    techStack: ["Ruby on Rails", "PostgreSQL", "Tailwind CSS"],
+      "A full stack System with user authentication, database managment and CRUD functions.",
+    techStack: ["PHP", "MySQL", "Boostrap"],
     imgSrc: project4,
     link: "https://example-blogplatform.com",
   },
@@ -82,10 +86,10 @@ export const PROJECTS = [
   },
   {
     id: 6,
-    title: "Online Learning Platform",
+    title: "SwiftRide App",
     description:
-      "An e-learning platform offering video courses, quizzes, and progress tracking for students.",
-    techStack: ["Vue.js", "Node.js", "MongoDB", "Express"],
+      "This was a ride sharing App on which I co-worked on the frontend by developing various screens for the App  .",
+    techStack: ["ReactNative", "Typescript", "Tailwind CSS"],
     imgSrc: project6,
     link: "https://example-learningplatform.com",
   },
@@ -109,11 +113,11 @@ export const SKILLS = [
     icon: <RiReactjsLine className="text-blue-400" />,
   },
   {
-    name: "Node.js",
-    icon: <RiNodeTree className="text-green-500" />,
+    name: "Typescript",
+    icon: <RiJavascriptFill className="text-blue-500" />,
   },
   {
-    name: "MongoDB",
+    name: "MySql",
     icon: <RiDatabaseLine className="text-green-600" />,
   },
   {
@@ -121,77 +125,80 @@ export const SKILLS = [
     icon: <RiCodeSSlashLine className="text-teal-400" />,
   },
   {
-    name: "GraphQL",
-    icon: <RiGitBranchLine className="text-pink-400" />,
+    name: "PHP",
+    icon: <RiPhpLine className="text-pink-400" />,
+  },
+  {
+    name: "React Native",
+    icon: <RiReactjsLine className="text-pink-400" />,
+  },
+  {
+    name: "GIT",
+    icon: <RiGitBranchLine className="text-red-500" />,
+  },
+  {
+    name: "Canva",
+    icon: <RiAdvertisementLine className="text-orange-400" />,
   },
 ];
 
 export const EXPERIENCES = [
   {
-    yearRange: "2023 - Present",
-    role: "Senior Full Stack Developer",
-    company: "Google Inc.",
+    yearRange: "2024 - Present",
+    role: "Junior Front-End Developer",
+    company: "Codeplay ug",
     description:
-      "Led a team in developing and maintaining web applications using JavaScript, React.js, and Node.js. Implemented RESTful APIs and integrated with MongoDB databases. Collaborated with stakeholders to define project requirements and timelines.",
-    techStack: ["Javascript", "React.js", "Next.js", "MongoDB"],
+      "Co-worked in developing and maintaining web and mobile applications using Typescript, React.js, React Native and Tailwind CSS. Collaborated with Team leads and project managers to define project requirements and timelines.",
+    techStack: ["Typescript", "React.js", "React Native", "Tailwind CSS"],
   },
   {
     yearRange: "2022 - 2023",
-    role: "Frontend Developer",
-    company: "Adobe",
+    role: "IT Officer",
+    company: "UNASO",
     description:
-      "Designed and developed user interfaces for web applications using Next.js and React. Worked closely with backend developers to integrate frontend components with Node.js APIs. Implemented responsive designs and optimized frontend performance.",
-    techStack: ["HTML", "CSS", "Vue.js", "MySQL"],
+      "I ensured the company website was updated with the oragnisation's important days and activities. I also did graphics designing for the organisation's social media and workshops",
+    techStack: ["HTML", "CSS", "Canva", "MySQL", , "Excel"],
   },
   {
     yearRange: "2021 - 2022",
-    role: "Full Stack Developer",
-    company: "Facebook",
-    description:
-      "Developed and maintained web applications using JavaScript, React.js, and Node.js. Designed and implemented RESTful APIs for data communication. Collaborated with cross-functional teams to deliver high-quality software products on schedule.",
-    techStack: ["Python", "Svelte", "Three.js", "Postgres"],
-  },
-  {
-    yearRange: "2020 - 2021",
-    role: "Software Engineer",
-    company: "PayPal",
-    description:
-      "Contributed to the development of web applications using JavaScript, React.js, and Node.js. Managed databases and implemented data storage solutions using MongoDB. Worked closely with product managers to prioritize features and enhancements.",
-    techStack: ["Ruby", "Rails", "PHP", "SQLite"],
+    role: "IT and Sales",
+    company: "Winter Computers",
+    description: "Updated and maintained company and computer sales.",
+    techStack: ["Adobe", "Canva"],
   },
 ];
 
 export const EDUCATION = [
   {
     id: 1,
-    degree: "Bachelor of Science in Computer Science",
-    institution: "Stanford University",
-    duration: "2012 - 2016",
+    degree: "Bachelor of Information Systems and Technology",
+    institution: "Makerere University University",
+    duration: " 2024",
     description:
-      "Graduated with honors in Computer Science, focusing on algorithms, data structures, and web development. Completed a capstone project on scalable cloud architectures.",
+      "Graduated with honors in Information System and Technology, majoring in software development. Completed a final year project on decentralised technology (A web based decentralized digital evidence presevation system).",
   },
   {
     id: 2,
-    degree: "Master of Science in Software Engineering",
-    institution: "MIT",
-    duration: "2016 - 2018",
+    degree: "Certificate of completion in Frontend Engineering",
+    institution: "Codeplay ug",
+    duration: "2024",
     description:
-      "Focused on advanced software engineering concepts, system design, and AI technologies. Completed a thesis on machine learning applications in real-time data processing.",
+      "Focused on UI/UX design, Frontend technologies forexample React, React Native, Tailwind and Typescript.",
   },
   {
     id: 3,
-    degree: "Certified React Developer",
-    institution: "Udacity Nanodegree",
-    duration: "2019",
+    degree: "Certificate of completion in graphics design",
+    institution: "Rana Labs",
+    duration: "2023",
     description:
-      "Earned a certification in advanced React.js development, including hooks, context API, and performance optimization.",
+      "Earned a certification in basic graphics designing using Adobe illustrator and Canva.",
   },
 ];
 
 export const TESTIMONIAL = {
-  name: "Sarah Doe",
-  title: "CEO, TechCorp",
+  name: "Calvin Kitara",
+  title: "CTO, UNASO",
   quote:
-    "Working with David was a game-changer. His expertise in full-stack development helped us scale our product with ease. His attention to detail and passion for quality are unmatched.",
+    "Working with Reagan was a game-changer. His devotion to software development and IT as a whole helped us scale our product with ease. His attention to detail and passion for quality are unmatched.",
   image: personImage,
 };
