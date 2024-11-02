@@ -11,10 +11,8 @@ import {
   RiCss3Line,
   RiJavascriptLine,
   RiReactjsLine,
-  RiNodeTree,
   RiPhpLine,
   RiJavascriptFill,
-  RiEditLine,
   RiAdvertisementLine,
 } from "@remixicon/react";
 import {
@@ -44,7 +42,7 @@ export const PROJECTS = [
     title: "E-commerce Website",
     description:
       "A full-featured e-commerce website built with React. I was practicing product management, state management, empty and active states and responsiveness.",
-    techStack: ["React", "Typescript", "Tailwind CSS", "Context API"],
+    techStack: ["React.js", "Typescript", "Tailwind CSS", "Context API"],
     imgSrc: project1,
     link: "https://example-ecommerce.com",
   },
@@ -53,7 +51,7 @@ export const PROJECTS = [
     title: "Snap webpage",
     description:
       "A landing page, built with React, Typescript and Tailwind CSS. I was checking out routing concepts and media queries",
-    techStack: ["React", "Typescript", "Tailwind CSS"],
+    techStack: ["React.js", "Typescript", "Tailwind CSS"],
     imgSrc: project2,
     link: "https://example-socialapp.com",
   },
@@ -71,16 +69,16 @@ export const PROJECTS = [
     title: "Visa Application System",
     description:
       "A full stack System with user authentication, database managment and CRUD functions.",
-    techStack: ["PHP", "MySQL", "Boostrap"],
+    techStack: ["PHP", "MySQL", "Bootstrap"],
     imgSrc: project4,
     link: "https://example-blogplatform.com",
   },
   {
     id: 5,
-    title: "Task Management App",
+    title: "Movie Scrapping Tool",
     description:
-      "A task management tool with user authentication, reminders, and collaboration features.",
-    techStack: ["Angular", "Firebase", "Material UI"],
+      "A Scrapping tool scrapping top 100 movie titles from the movie sites and storing them in a database.",
+    techStack: ["Bootstrap", "Python", "Mysql"],
     imgSrc: project5,
     link: "https://example-taskapp.com",
   },
@@ -179,7 +177,7 @@ export const EDUCATION = [
   },
   {
     id: 2,
-    degree: "Certificate of completion in Frontend Engineering",
+    degree: "Certificate of Completion in Frontend Engineering",
     institution: "Codeplay ug",
     duration: "2024",
     description:
@@ -187,7 +185,7 @@ export const EDUCATION = [
   },
   {
     id: 3,
-    degree: "Certificate of completion in graphics design",
+    degree: "Certificate of Completion in graphics design",
     institution: "Rana Labs",
     duration: "2023",
     description:
