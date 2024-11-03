@@ -4,7 +4,7 @@ import project3 from "../assets/project3.webp";
 import project4 from "../assets/project4.webp";
 import project5 from "../assets/project5.webp";
 import project6 from "../assets/project6.webp";
-import personImage from "../assets/testimonial.webp";
+import placeholder from "../assets/placeholder.png";
 
 import {
   RiHtml5Line,
@@ -44,7 +44,7 @@ export const PROJECTS = [
       "A full-featured e-commerce website built with React. I was practicing product management, state management, empty and active states and responsiveness.",
     techStack: ["React.js", "Typescript", "Tailwind CSS", "Context API"],
     imgSrc: project1,
-    link: "https://example-ecommerce.com",
+    link: "https://desserts-eshop.netlify.app/",
   },
   {
     id: 2,
@@ -53,7 +53,7 @@ export const PROJECTS = [
       "A landing page, built with React, Typescript and Tailwind CSS. I was checking out routing concepts and media queries",
     techStack: ["React.js", "Typescript", "Tailwind CSS"],
     imgSrc: project2,
-    link: "https://example-socialapp.com",
+    link: "https://snap-webpage.vercel.app/",
   },
   {
     id: 3,
@@ -71,7 +71,7 @@ export const PROJECTS = [
       "A full stack System with user authentication, database managment and CRUD functions.",
     techStack: ["PHP", "MySQL", "Bootstrap"],
     imgSrc: project4,
-    link: "https://example-blogplatform.com",
+    link: "",
   },
   {
     id: 5,
@@ -80,7 +80,7 @@ export const PROJECTS = [
       "A Scrapping tool scrapping top 100 movie titles from the movie sites and storing them in a database.",
     techStack: ["Bootstrap", "Python", "Mysql"],
     imgSrc: project5,
-    link: "https://example-taskapp.com",
+    link: "",
   },
   {
     id: 6,
@@ -89,7 +89,7 @@ export const PROJECTS = [
       "This was a ride sharing App on which I co-worked on the frontend by developing various screens for the App  .",
     techStack: ["ReactNative", "Typescript", "Tailwind CSS"],
     imgSrc: project6,
-    link: "https://example-learningplatform.com",
+    link: "",
   },
 ];
 
@@ -198,5 +198,5 @@ export const TESTIMONIAL = {
   title: "CTO, UNASO",
   quote:
     "Working with Reagan was a game-changer. His devotion to software development and IT as a whole helped us scale our product with ease. His attention to detail and passion for quality are unmatched.",
-  image: personImage,
+  image: placeholder,
 };
