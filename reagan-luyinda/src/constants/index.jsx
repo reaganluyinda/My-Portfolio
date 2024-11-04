@@ -44,7 +44,7 @@ export const PROJECTS = [
       "A full-featured e-commerce website built with React. I was practicing product management, state management, empty and active states and responsiveness.",
     techStack: ["React.js", "Typescript", "Tailwind CSS", "Context API"],
     imgSrc: project1,
-    link: "https://desserts-eshop.netlify.app/",
+    link: "https://desserts-shop-eshop.vercel.app/",
   },
   {
     id: 2,
@@ -62,7 +62,7 @@ export const PROJECTS = [
       "A personal portfolio website showcasing projects and skills. Fully responsive and optimized for performance.",
     techStack: ["React.js", "Javascript", "Tailwind CSS", "GSAP"],
     imgSrc: project3,
-    link: "https://my-portfolio-smoky-two-79.vercel.app/",
+    link: "https://my-portfolio-reaganluyinda.vercel.app/",
   },
   {
     id: 4,
