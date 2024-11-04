@@ -42,7 +42,7 @@ export const PROJECTS = [
     title: "E-commerce Website",
     description:
       "A full-featured e-commerce website built with React. I was practicing product management, state management, empty and active states and responsiveness.",
-    techStack: ["React.js", "Typescript", "Tailwind CSS", "Context API"],
+    techStack: ["React", "Typescript", "Tailwind CSS", "Context API"],
     imgSrc: project1,
     link: "https://desserts-shop-eshop.vercel.app/",
   },
@@ -51,7 +51,7 @@ export const PROJECTS = [
     title: "Snap webpage",
     description:
       "A landing page, built with React, Typescript and Tailwind CSS. I was checking out routing concepts and media queries",
-    techStack: ["React.js", "Typescript", "Tailwind CSS"],
+    techStack: ["React", "Typescript", "Tailwind CSS"],
     imgSrc: project2,
     link: "https://snap-webpage.vercel.app/",
   },
@@ -60,7 +60,7 @@ export const PROJECTS = [
     title: "Portfolio Website",
     description:
       "A personal portfolio website showcasing projects and skills. Fully responsive and optimized for performance.",
-    techStack: ["React.js", "Javascript", "Tailwind CSS", "GSAP"],
+    techStack: ["React", "Javascript", "Tailwind CSS", "GSAP"],
     imgSrc: project3,
     link: "https://my-portfolio-reaganluyinda.vercel.app/",
   },
