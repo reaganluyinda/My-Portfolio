@@ -1,8 +1,30 @@
-import React, { useRef } from "react";
+import React, { useEffect, useRef } from "react";
 import { EDUCATION } from "../constants";
+import { gsap } from "gsap";
+import { ScrollTrigger } from "gsap/ScrollTrigger";
+
+gsap.registerPlugin(ScrollTrigger);
 
 const Education = () => {
   const educationRef = useRef(null);
+
+  useEffect(() => {
+    const ctx = gsap.context(() => {
+      gsap.from("#education-item", {
+        opacity: 0,
+        y: 50,
+        duration: 1,
+        ease: "power3.out",
+        stagger: 0.3,
+        scrollTrigger: {
+          trigger: educationRef.current,
+          start: "top 80%",
+          toggleActions: "play none none none",
+        },
+      });
+    }, educationRef);
+    return () => ctx.revert();
+  }, []);
   return (
     <section className="py-16" id="education" ref={educationRef}>
       <div className="mx-auto max-w-full px-4">
@@ -14,6 +36,7 @@ const Education = () => {
             <div
               key={edu.id}
               className="rounded-xl border border-purple-300/20 p-6"
+              id="education-item"
             >
               <h3 className="mb-2 text-lg lg:text-2xl">{edu.degree}</h3>
               <h4 className="text-lg font-medium lg:text-xl">
