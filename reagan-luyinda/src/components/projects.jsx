@@ -1,8 +1,30 @@
-import { useRef } from "react";
+import { useEffect, useRef } from "react";
 import { PROJECTS } from "../constants/index";
+import { gsap } from "gsap";
+import { ScrollTrigger } from "gsap/ScrollTrigger";
+
+gsap.registerPlugin(ScrollTrigger);
 
 const Projects = () => {
   const projectsRef = useRef(null);
+
+  useEffect(() => {
+    const ctx = gsap.context(() => {
+      gsap.from("#project-card", {
+        opacity: 0,
+        y: 50,
+        duration: 1,
+        ease: "power3.out",
+        stagger: 0.3,
+        scrollTrigger: {
+          trigger: projectsRef.current,
+          start: "top 80%",
+          toggleActions: "play none none none",
+        },
+      });
+    }, projectsRef);
+    return () => ctx.revert();
+  }, []);
   return (
     <section className="pt-16" id="projects" ref={projectsRef}>
       <div className="px-4">
@@ -14,6 +36,7 @@ const Projects = () => {
             <div
               key={project.id}
               className="flex w-full flex-col p-4 md:w-1/2 lg:w-1/3"
+              id="project-card"
             >
               <div className="flex-grow overflow-hidden rounded-lg border border-purple-300/20">
                 <a
