@@ -38,38 +38,35 @@ const Projects = () => {
               className="flex w-full flex-col p-4 md:w-1/2 lg:w-1/3"
               id="project-card"
             >
-              <div className="flex-grow overflow-hidden rounded-lg border border-purple-300/20">
-                <a
-                  href={project.link}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
+              <a href={project.link} target="_blank" rel="noopener noreferrer">
+                <div className="flex-grow overflow-hidden rounded-lg border border-purple-300/20">
                   <img
                     src={project.imgSrc}
                     alt={project.title}
                     className="h-60 w-full object-cover"
                   />
-                </a>
-                <div className="p-6">
-                  <h3 className="mb-2 text-lg font-medium lg:text-2xl">
-                    {project.title}
-                  </h3>
-                  <p className="mb-4">{project.description}</p>
-                  <div className="mb-4">
-                    <strong>Tech Stack:</strong>
-                    <ul>
-                      {project.techStack.map((tech, index) => (
-                        <li
-                          key={index}
-                          className="mb-1 mr-2 inline-block rounded-full border-2 border-pink-500/30 px-3 py-1 text-sm font-semibold"
-                        >
-                          {tech}
-                        </li>
-                      ))}
-                    </ul>
+
+                  <div className="p-6">
+                    <h3 className="mb-2 text-lg font-medium lg:text-2xl">
+                      {project.title}
+                    </h3>
+                    <p className="mb-4">{project.description}</p>
+                    <div className="mb-4">
+                      <strong>Tech Stack:</strong>
+                      <ul>
+                        {project.techStack.map((tech, index) => (
+                          <li
+                            key={index}
+                            className="mb-1 mr-2 inline-block rounded-full border-2 border-pink-500/30 px-3 py-1 text-sm font-semibold"
+                          >
+                            {tech}
+                          </li>
+                        ))}
+                      </ul>
+                    </div>
                   </div>
                 </div>
-              </div>
+              </a>
             </div>
           ))}
         </div>
