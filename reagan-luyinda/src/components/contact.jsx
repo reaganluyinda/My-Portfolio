@@ -2,6 +2,7 @@ import {
   RiGithubFill,
   RiLinkedinBoxFill,
   RiTwitterFill,
+  RiTwitterXFill,
 } from "@remixicon/react";
 import { useEffect, useRef } from "react";
 import { gsap } from "gsap";
@@ -79,7 +80,7 @@ const Contact = () => {
             id="contact-icon"
             aria-label="Visit my Twitter profile"
           >
-            <RiTwitterFill className="text-3xl" />
+            <RiTwitterXFill className="text-3xl" />
           </a>
         </div>
       </div>

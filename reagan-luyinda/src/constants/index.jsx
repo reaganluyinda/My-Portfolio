@@ -14,6 +14,7 @@ import {
   RiPhpLine,
   RiJavascriptFill,
   RiAdvertisementLine,
+  RiComputerLine,
 } from "@remixicon/react";
 import {
   RiDatabaseLine,
@@ -33,7 +34,7 @@ export const PROFILE = {
   name: "Reagan J Luyinda",
   role: "Front-End Developer",
   subheading:
-    "With 2 years of Front-End development experience, I build efficient, scalable web and Mobile applications. I am on the job hunt and always curious about interesting projects.",
+    "With 2 years of Software development experience, I build efficient, scalable web and Mobile applications. I am on the job hunt and always curious about interesting projects.",
 };
 
 export const PROJECTS = [
@@ -133,6 +134,10 @@ export const SKILLS = [
   {
     name: "GIT",
     icon: <RiGitBranchLine className="text-red-500" />,
+  },
+  {
+    name: "UI/UX",
+    icon: <RiComputerLine className="text-indigo-600" />,
   },
   {
     name: "Canva",
