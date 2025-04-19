@@ -15,6 +15,7 @@ import {
   RiJavascriptFill,
   RiAdvertisementLine,
   RiComputerLine,
+  RiNodejsLine,
 } from "@remixicon/react";
 import {
   RiDatabaseLine,
@@ -32,7 +33,7 @@ export const NAVIGATION_LINKS = [
 
 export const PROFILE = {
   name: "Reagan J Luyinda",
-  role: "Front-End Developer",
+  role: "Software Developer",
   subheading:
     "With 2 years of Software development experience, I build efficient, scalable web and Mobile applications. I am on the job hunt and always curious about interesting projects.",
 };
@@ -139,15 +140,31 @@ export const SKILLS = [
     name: "UI/UX",
     icon: <RiComputerLine className="text-indigo-600" />,
   },
+
   {
-    name: "Canva",
-    icon: <RiAdvertisementLine className="text-orange-400" />,
+    name: "Node.js",
+    icon: <RiNodejsLine className="text-green-400" />,
   },
 ];
 
 export const EXPERIENCES = [
   {
     yearRange: "2024 - Present",
+    role: "Freelance Web Developer",
+    company: "Lj Creative",
+    description:
+      "Developing and maintaining web and mobile applications using Typescript, Next.js, React Native,Tailwind CSS and Framer.",
+    techStack: [
+      "Typescript",
+      "Next.js",
+      "React Native",
+      "Tailwind CSS",
+      "Framer",
+      "Node.js",
+    ],
+  },
+  {
+    yearRange: "2024",
     role: "Junior Front-End Developer",
     company: "Codeplay ug",
     description:
@@ -176,9 +193,9 @@ export const EDUCATION = [
     id: 1,
     degree: "Bachelor of Information Systems and Technology",
     institution: "Makerere University University",
-    duration: " 2024",
+    duration: " 2025",
     description:
-      "Graduated with honors in Information System and Technology, majoring in software development. Completed a final year project on decentralised technology (A web based decentralized digital evidence presevation system).",
+      "Graduating in 2026 with honors in Information System and Technology, majoring in software development. Completing a final year project on decentralised technology (A web based decentralized digital evidence presevation system).",
   },
   {
     id: 2,
