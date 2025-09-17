@@ -7,7 +7,6 @@ import project6 from "../assets/project6.webp";
 import placeholder from "../assets/placeholder.png";
 
 import {
-  RiHtml5Line,
   RiCss3Line,
   RiJavascriptLine,
   RiReactjsLine,
@@ -16,6 +15,8 @@ import {
   RiAdvertisementLine,
   RiComputerLine,
   RiNodejsLine,
+  RiNextjsLine,
+  RiTailwindCssLine,
 } from "@remixicon/react";
 import {
   RiDatabaseLine,
@@ -77,12 +78,12 @@ export const PROJECTS = [
   },
   {
     id: 5,
-    title: "Movie Scrapping Tool",
+    title: "Sole Labs",
     description:
-      "A Scrapping tool scrapping top 100 movie titles from the movie sites and storing them in a database.",
-    techStack: ["Bootstrap", "Python", "Mysql"],
+      "A digital agency website offering services like web design, mobile apps, e-commerce, branding, graphics etc.",
+    techStack: ["Next.js", "Typescript", "Tailwind CSS"],
     imgSrc: project5,
-    link: "",
+    link: "https://www.solelabs.site/",
   },
   {
     id: 6,
@@ -97,8 +98,8 @@ export const PROJECTS = [
 
 export const SKILLS = [
   {
-    name: "HTML5",
-    icon: <RiHtml5Line className="text-orange-600" />,
+    name: "Next.js",
+    icon: <RiNextjsLine className="text-orange-600" />,
   },
   {
     name: "CSS3",
@@ -122,7 +123,7 @@ export const SKILLS = [
   },
   {
     name: "Tailwind CSS",
-    icon: <RiCodeSSlashLine className="text-teal-400" />,
+    icon: <RiTailwindCssLine className="text-teal-400" />,
   },
   {
     name: "PHP",
@@ -137,7 +138,7 @@ export const SKILLS = [
     icon: <RiGitBranchLine className="text-red-500" />,
   },
   {
-    name: "UI/UX",
+    name: "MongoDB",
     icon: <RiComputerLine className="text-indigo-600" />,
   },
 
