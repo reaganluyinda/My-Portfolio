@@ -42,48 +42,55 @@ export const PROFILE = {
 export const PROJECTS = [
   {
     id: 1,
-    title: "E-commerce Website",
+    title: "Sole Labs",
     description:
-      "A full-featured e-commerce website built with React. I was practicing product management, state management, empty and active states and responsiveness.",
+      "A responsive website. Through this project, I deepened my understanding of routing in Next.js and implemented responsive layouts with Tailwind's utility-first approach. Deployed on Vercel, it served as a practical exercise in building modern, production-ready web applications.",
+    techStack: ["Next.js", "TypeScript", "Tailwind CSS", "Vercel"],
+    imgSrc: project5,
+    link: "https://www.solelabs.site/",
+  },
+  {
+    id: 2,
+    title: "Ira Edwin Portfolio",
+    description:
+      "A freelancer portfolio website showcasing my clients work. Its responsive design ensures a seamless experience across devices. This project improved my skills in routing, page transitions, media queries, and creative layout design.",
+    techStack: ["Next.js", "Typescript", "Tailwind CSS", "Framer Motion"],
+    imgSrc: project3,
+    link: "https://ira-port.vercel.app/",
+  },
+  {
+    id: 3,
+    title: "Dessert Shop",
+    description:
+      "A featured e-commerce website built with React. I was exploring product management, state management, empty and active states, cart UI, and responsive design across devices.",
     techStack: ["React", "Typescript", "Tailwind CSS", "Context API"],
     imgSrc: project1,
     link: "https://desserts-shop-eshop.vercel.app/",
   },
   {
-    id: 2,
+    id: 4,
+    title: "Gold Millennium Uganda",
+    description:
+      "A landing page for Gold dealership business. I explored easy navigation for user inquries and product image views, Structured content for better search engine visibility and responsive design for various devices.",
+    techStack: ["Next.js", "TypeScript", "Tailwind CSS", "Vercel"],
+    imgSrc: project4,
+    link: "https://gold-millennium.vercel.app/",
+
+    // title: "Visa Application System",
+    // description:
+    //   "A full stack System with user authentication, database managment and CRUD functions.",
+    // techStack: ["PHP", "MySQL", "Bootstrap"],
+    // imgSrc: project4,
+    // link: "",
+  },
+  {
+    id: 5,
     title: "Snap webpage",
     description:
       "A landing page, built with React, Typescript and Tailwind CSS. I was checking out routing concepts and media queries",
     techStack: ["React", "Typescript", "Tailwind CSS"],
     imgSrc: project2,
     link: "https://snap-webpage.vercel.app/",
-  },
-  {
-    id: 3,
-    title: "Portfolio Website",
-    description:
-      "A personal portfolio website showcasing projects and skills. Fully responsive and optimized for performance.",
-    techStack: ["React", "Javascript", "Tailwind CSS", "GSAP"],
-    imgSrc: project3,
-    link: "https://my-portfolio-reaganluyinda.vercel.app/",
-  },
-  {
-    id: 4,
-    title: "Visa Application System",
-    description:
-      "A full stack System with user authentication, database managment and CRUD functions.",
-    techStack: ["PHP", "MySQL", "Bootstrap"],
-    imgSrc: project4,
-    link: "",
-  },
-  {
-    id: 5,
-    title: "Sole Labs",
-    description:
-      "A digital agency website offering services like web design, mobile apps, e-commerce, branding, graphics etc.",
-    techStack: ["Next.js", "Typescript", "Tailwind CSS"],
-    imgSrc: project5,
-    link: "https://www.solelabs.site/",
   },
   {
     id: 6,
