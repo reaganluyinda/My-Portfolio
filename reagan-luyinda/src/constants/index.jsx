@@ -87,7 +87,7 @@ export const PROJECTS = [
     id: 5,
     title: "Snap webpage",
     description:
-      "A landing page, built with React, Typescript and Tailwind CSS. I was checking out routing concepts and media queries",
+      "A landing page, built with React, Typescript and Tailwind CSS. I explored react concepts, component based architecture and responsive design. I also practiced tailwind CSS for styling.",
     techStack: ["React", "Typescript", "Tailwind CSS"],
     imgSrc: project2,
     link: "https://snap-webpage.vercel.app/",
