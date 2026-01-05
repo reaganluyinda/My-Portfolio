@@ -3,26 +3,21 @@ import project2 from "../assets/snap.png";
 import project3 from "../assets/iraport.png";
 import project4 from "../assets/gold.png";
 import project5 from "../assets/solelabs.png";
-import project6 from "../assets/project6.webp";
+import chuco from "../assets/chuco.png";
 import placeholder from "../assets/placeholder.png";
 
 import {
-  RiCss3Line,
   RiJavascriptLine,
   RiReactjsLine,
   RiPhpLine,
   RiJavascriptFill,
-  RiAdvertisementLine,
   RiComputerLine,
   RiNodejsLine,
   RiNextjsLine,
   RiTailwindCssLine,
+  RiSettings5Line,
 } from "@remixicon/react";
-import {
-  RiDatabaseLine,
-  RiCodeSSlashLine,
-  RiGitBranchLine,
-} from "@remixicon/react";
+import { RiDatabaseLine, RiGitBranchLine } from "@remixicon/react";
 
 export const NAVIGATION_LINKS = [
   { label: "Projects", href: "#projects" },
@@ -34,32 +29,23 @@ export const NAVIGATION_LINKS = [
 
 export const PROFILE = {
   name: "Reagan J Luyinda",
-  role: "Software Developer",
+  role: "Full-Stack Developer",
   subheading:
-    "With 2 years of Software development experience, I build efficient, scalable web and Mobile applications. I am on the job hunt and always curious about interesting projects.",
+    "Full Stack Developer dedicated to building scalable, high-performance and responsive web and mobile applications that blend elegant code with practical performance. I turn concepts into real digital experiences.",
 };
 
 export const PROJECTS = [
   {
     id: 1,
-    title: "Sole Labs",
+    title: "Church Connect",
     description:
-      "A responsive website. Through this project, I deepened my understanding of routing in Next.js and implemented responsive layouts with Tailwind's utility-first approach. Deployed on Vercel, it served as a practical exercise in building modern, production-ready web applications.",
-    techStack: ["Next.js", "TypeScript", "Tailwind CSS", "Vercel"],
-    imgSrc: project5,
-    link: "https://www.solelabs.site/",
+      "This is a web application built with the MERN stack deployed on Vercel. The app aims to connect church leaders and members, facilitate event management, and newcomer access and communication. Currently in development phase.",
+    techStack: ["Next.js", "Typescript", "Node.js", "MongoDB", "Tailwind CSS"],
+    imgSrc: chuco,
+    link: "https://church-connect-neon.vercel.app/",
   },
   {
     id: 2,
-    title: "Ira Edwin Portfolio",
-    description:
-      "A freelancer portfolio website showcasing my clients work. Its responsive design ensures a seamless experience across devices. This project improved my skills in routing, page transitions, media queries, and creative layout design.",
-    techStack: ["Next.js", "Typescript", "Tailwind CSS", "Framer Motion"],
-    imgSrc: project3,
-    link: "https://ira-port.vercel.app/",
-  },
-  {
-    id: 3,
     title: "Dessert Shop",
     description:
       "A featured e-commerce website built with React. I was exploring product management, state management, empty and active states, cart UI, and responsive design across devices.",
@@ -68,7 +54,25 @@ export const PROJECTS = [
     link: "https://desserts-shop-eshop.vercel.app/",
   },
   {
+    id: 3,
+    title: "Ira Edwin Portfolio",
+    description:
+      "A freelancer portfolio website showcasing my clients work. Its responsive design ensures a seamless experience across devices. This project improved my skills in routing, page transitions, media queries, and creative layout design.",
+    techStack: ["Next.js", "Typescript", "Tailwind CSS", "Framer Motion"],
+    imgSrc: project3,
+    link: "https://ira-port.vercel.app/",
+  },
+  {
     id: 4,
+    title: "Sole Labs",
+    description:
+      "A responsive website. Through this project, I deepened my understanding of routing in Next.js and implemented responsive layouts with Tailwind's utility-first approach. Deployed on Vercel, it served as a practical exercise in building modern, production-ready web applications.",
+    techStack: ["Next.js", "TypeScript", "Tailwind CSS", "Vercel"],
+    imgSrc: project5,
+    link: "https://www.solelabs.site/",
+  },
+  {
+    id: 5,
     title: "Gold Millennium Uganda",
     description:
       "A landing page for Gold dealership business. I explored easy navigation for user inquries and product image views, Structured content for better search engine visibility and responsive design for various devices.",
@@ -84,7 +88,7 @@ export const PROJECTS = [
     // link: "",
   },
   {
-    id: 5,
+    id: 6,
     title: "Snap webpage",
     description:
       "A landing page, built with React, Typescript and Tailwind CSS. I explored react concepts, component based architecture and responsive design. I also practiced tailwind CSS for styling.",
@@ -92,38 +96,47 @@ export const PROJECTS = [
     imgSrc: project2,
     link: "https://snap-webpage.vercel.app/",
   },
-  {
-    id: 6,
-    title: "SwiftRide App",
-    description:
-      "This was a ride sharing App on which I co-worked on the frontend by developing various screens for the App  .",
-    techStack: ["ReactNative", "Typescript", "Tailwind CSS"],
-    imgSrc: project6,
-    link: "",
-  },
 ];
 
 export const SKILLS = [
+  {
+    name: "React",
+    icon: <RiReactjsLine className="text-blue-400" />,
+  },
   {
     name: "Next.js",
     icon: <RiNextjsLine className="text-orange-600" />,
   },
   {
-    name: "CSS3",
-    icon: <RiCss3Line className="text-blue-500" />,
+    name: "Typescript",
+    icon: <RiJavascriptFill className="text-blue-500" />,
+  },
+  {
+    name: "Node.js",
+    icon: <RiNodejsLine className="text-green-400" />,
   },
   {
     name: "JavaScript",
     icon: <RiJavascriptLine className="text-yellow-500" />,
   },
   {
-    name: "React",
-    icon: <RiReactjsLine className="text-blue-400" />,
+    name: "MongoDB",
+    icon: <RiComputerLine className="text-indigo-600" />,
   },
   {
-    name: "Typescript",
-    icon: <RiJavascriptFill className="text-blue-500" />,
+    name: "GIT",
+    icon: <RiGitBranchLine className="text-red-500" />,
   },
+  {
+    name: "REST APIs",
+    icon: <RiSettings5Line className="text-blue-500" />,
+  },
+
+  {
+    name: "React Native",
+    icon: <RiReactjsLine className="text-pink-400" />,
+  },
+
   {
     name: "MySql",
     icon: <RiDatabaseLine className="text-green-600" />,
@@ -135,23 +148,6 @@ export const SKILLS = [
   {
     name: "PHP",
     icon: <RiPhpLine className="text-pink-400" />,
-  },
-  {
-    name: "React Native",
-    icon: <RiReactjsLine className="text-pink-400" />,
-  },
-  {
-    name: "GIT",
-    icon: <RiGitBranchLine className="text-red-500" />,
-  },
-  {
-    name: "MongoDB",
-    icon: <RiComputerLine className="text-indigo-600" />,
-  },
-
-  {
-    name: "Node.js",
-    icon: <RiNodejsLine className="text-green-400" />,
   },
 ];
 
@@ -185,7 +181,7 @@ export const EXPERIENCES = [
     company: "UNASO",
     description:
       "I ensured the company website was updated with the oragnisation's important days and activities. I also did graphics designing for the organisation's social media and workshops",
-    techStack: ["HTML", "CSS", "Canva", "MySQL", , "Excel"],
+    techStack: ["HTML", "CSS", "Canva", "MySQL", "Excel"],
   },
   {
     yearRange: "2021 - 2022",
