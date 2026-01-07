@@ -43,6 +43,7 @@ export const PROJECTS = [
     techStack: ["Next.js", "Typescript", "Node.js", "MongoDB", "Tailwind CSS"],
     imgSrc: chuco,
     link: "https://church-connect-neon.vercel.app/",
+    codeLink: "https://github.com/reaganluyinda/ChurchConnect.git",
   },
   {
     id: 2,
@@ -52,6 +53,7 @@ export const PROJECTS = [
     techStack: ["React", "Typescript", "Tailwind CSS", "Context API"],
     imgSrc: project1,
     link: "https://desserts-shop-eshop.vercel.app/",
+    codeLink: "https://github.com/reaganluyinda/Desserts-eshop.git",
   },
   {
     id: 3,
@@ -61,6 +63,7 @@ export const PROJECTS = [
     techStack: ["Next.js", "Typescript", "Tailwind CSS", "Framer Motion"],
     imgSrc: project3,
     link: "https://ira-port.vercel.app/",
+    codeLink: "https://github.com/reaganluyinda/ira-port.git",
   },
   {
     id: 4,
@@ -70,6 +73,7 @@ export const PROJECTS = [
     techStack: ["Next.js", "TypeScript", "Tailwind CSS", "Vercel"],
     imgSrc: project5,
     link: "https://www.solelabs.site/",
+    codeLink: "https://github.com/reaganluyinda/Sole-Labs.git",
   },
   {
     id: 5,
@@ -79,13 +83,14 @@ export const PROJECTS = [
     techStack: ["Next.js", "TypeScript", "Tailwind CSS", "Vercel"],
     imgSrc: project4,
     link: "https://gold-millennium.vercel.app/",
+    codeLink: "https://github.com/reaganluyinda/Gold-Millennium.git",
 
     // title: "Visa Application System",
     // description:
     //   "A full stack System with user authentication, database managment and CRUD functions.",
     // techStack: ["PHP", "MySQL", "Bootstrap"],
     // imgSrc: project4,
-    // link: "",
+    // link: "https://github.com/reaganluyinda/Visa-application-system.git",
   },
   {
     id: 6,
@@ -95,6 +100,7 @@ export const PROJECTS = [
     techStack: ["React", "Typescript", "Tailwind CSS"],
     imgSrc: project2,
     link: "https://snap-webpage.vercel.app/",
+    codeLink: "https://github.com/reaganluyinda/Snap-webpage.git",
   },
 ];
 
