@@ -159,9 +159,9 @@ export const SKILLS = [
 
 export const EXPERIENCES = [
   {
-    yearRange: "2024 - Present",
+    yearRange: "2025 - ",
     role: "Freelance Web Developer",
-    company: "Lj Creative",
+    company: "Sole Labs",
     description:
       "Developing and maintaining web and mobile applications using Typescript, Next.js, React Native,Tailwind CSS and Framer.",
     techStack: [
