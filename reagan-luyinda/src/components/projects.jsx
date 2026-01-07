@@ -35,29 +35,33 @@ const Projects = () => {
           {PROJECTS.map((project) => (
             <div
               key={project.id}
-              className="flex w-full flex-col p-4 md:w-1/2 lg:w-1/3"
+              className="flex w-full  p-4 md:w-1/2 lg:w-1/3"
               id="project-card"
             >
-              <a href={project.link} target="_blank" rel="noopener noreferrer">
-                <div className="flex-grow overflow-hidden rounded-lg border border-purple-300/20">
-                  <img
-                    src={project.imgSrc}
-                    alt={project.title}
-                    className="h-60 w-full object-cover"
-                  />
-
-                  <div className="p-6">
+              {/* <a href={project.link} target="_blank" rel="noopener noreferrer"> */}
+              <div className="flex h-full w-full flex-col overflow-hidden rounded-lg border border-purple-300/20">
+                {/* Image */}
+                <img
+                  src={project.imgSrc}
+                  alt={project.title}
+                  className="h-60 w-full object-cover"
+                />
+                {/* content */}
+                <div className="flex flex-grow flex-col p-6">
+                  <div>
                     <h3 className="mb-2 text-lg font-medium lg:text-2xl">
                       {project.title}
                     </h3>
-                    <p className="mb-4">{project.description}</p>
-                    <div className="mb-4">
-                      <strong>Tech Stack:</strong>
-                      <ul>
+                    <p className="mb-4 text-sm text-gray-300">
+                      {project.description}
+                    </p>
+                    <div className="mb-6">
+                      <strong className="block mb-2">Tech Stack:</strong>
+                      <ul className="flex flex-wrap gap-2">
                         {project.techStack.map((tech, index) => (
                           <li
                             key={index}
-                            className="mb-1 mr-2 inline-block rounded-full border-2 border-pink-500/30 px-3 py-1 text-sm font-semibold"
+                            className=" rounded-full border-2 border-pink-500/30 px-3 py-1 text-xs font-semibold"
                           >
                             {tech}
                           </li>
@@ -65,8 +69,28 @@ const Projects = () => {
                       </ul>
                     </div>
                   </div>
+                  {/* buttons */}
+                  <div className="mt-auto flex gap-3">
+                    <a
+                      href={project.link}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="flex-1 rounded-md bg-purple-600 px-4 py-2 text-center text-sm font-semibold text-white hover:bg-purple-700 transition"
+                    >
+                      View Project
+                    </a>
+
+                    <a
+                      href={project.codeLink}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="flex-1 rounded-md border border-purple-500 px-4 py-2 text-center text-sm font-semibold text-purple-400 hover:bg-purple-500/10 transition"
+                    >
+                      View Code
+                    </a>
+                  </div>
                 </div>
-              </a>
+              </div>
             </div>
           ))}
         </div>
