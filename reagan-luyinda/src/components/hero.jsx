@@ -1,4 +1,4 @@
-import React, { useEffect, useRef } from "react";
+import { useEffect, useRef } from "react";
 import { PROFILE } from "../constants";
 import { RiArrowRightUpLine } from "@remixicon/react";
 import myImage from "../assets/Reagan.jpg";
@@ -84,7 +84,7 @@ const Hero = () => {
         {PROFILE.subheading}
       </p>
       <a
-        href="/Reagan's CV.pdf"
+        href="/Reagan CV.pdf"
         target="_blank"
         rel="noopener noreferrer"
         download
