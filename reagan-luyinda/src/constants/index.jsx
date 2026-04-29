@@ -159,7 +159,8 @@ export const SKILLS = [
 
 export const EXPERIENCES = [
   {
-    yearRange: "2025 - ",
+    // yearRange: "2025 - ",
+    yearRange: "2024 - 2025 ",
     role: "Freelance Web Developer",
     company: "Sole Labs",
     description:
@@ -173,14 +174,14 @@ export const EXPERIENCES = [
       "Node.js",
     ],
   },
-  {
-    yearRange: "2024",
-    role: "Junior Front-End Developer",
-    company: "Codeplay ug",
-    description:
-      "Co-worked in developing and maintaining web and mobile applications using Typescript, React.js, React Native and Tailwind CSS. Collaborated with Team leads and project managers to define project requirements and timelines.",
-    techStack: ["Typescript", "React.js", "React Native", "Tailwind CSS"],
-  },
+  // {
+  //   yearRange: "2024",
+  //   role: "Junior Front-End Developer",
+  //   company: "Codeplay ug",
+  //   description:
+  //     "Co-worked in developing and maintaining web and mobile applications using Typescript, React.js, React Native and Tailwind CSS. Collaborated with Team leads and project managers to define project requirements and timelines.",
+  //   techStack: ["Typescript", "React.js", "React Native", "Tailwind CSS"],
+  // },
   {
     yearRange: "2022 - 2023",
     role: "IT Officer",
@@ -207,14 +208,14 @@ export const EDUCATION = [
     description:
       "Graduating in 2026 with honors in Information System and Technology, majoring in software development. Completing a final year project on decentralised technology (A web based decentralized digital evidence presevation system).",
   },
-  {
-    id: 2,
-    degree: "Certificate of Completion in Frontend Engineering",
-    institution: "Codeplay ug",
-    duration: "2024",
-    description:
-      "Focused on UI/UX design, Frontend technologies forexample React, React Native, Tailwind and Typescript.",
-  },
+  // {
+  //   id: 2,
+  //   degree: "Certificate of Completion in Frontend Engineering",
+  //   institution: "Codeplay ug",
+  //   duration: "2024",
+  //   description:
+  //     "Focused on UI/UX design, Frontend technologies forexample React, React Native, Tailwind and Typescript.",
+  // },
   {
     id: 3,
     degree: "Certificate of Completion in graphics design",

@@ -1,6 +1,6 @@
 import { useEffect, useRef } from "react";
 import { PROFILE } from "../constants";
-import { RiArrowRightUpLine } from "@remixicon/react";
+// import { RiArrowRightUpLine } from "@remixicon/react";
 import myImage from "../assets/Reagan.jpg";
 import { gsap } from "gsap";
 
@@ -83,7 +83,7 @@ const Hero = () => {
       >
         {PROFILE.subheading}
       </p>
-      <a
+      {/* <a
         href="/Reagan CV.pdf"
         target="_blank"
         rel="noopener noreferrer"
@@ -93,7 +93,7 @@ const Hero = () => {
       >
         <span>Download Resume</span>
         <RiArrowRightUpLine />
-      </a>
+      </a> */}
       <img
         src={myImage}
         alt={PROFILE.name}
